@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banjade News Today - Get the latest News of overall India on a single paltform</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/e5dc0c1e60.js" defer crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="aboveNav">
+        <div class="upperTab">
+            <div class="currTime">
+                <!-- <p id="currTime">Ram is a good boy</p> -->
+                <p id="demo"></p>
+            </div>
+            <div class="socialTabs">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+        <div class="brandName">
+            <!-- <h1>Banjade <span>News</span></h1> -->
+            <object data="banjadeNewsLogo.svg" height="180px" width="200px" title="Brand | Channel"></object>
+        </div>
+    </header>
+    <nav>
+        <section class="logo">
+            <div class="logoTxt">
+                Banjade News <span> Today</span>
+            </div>
+        </section>
+        <section class="centerTxt">Hot News</section>
+        <section class="navLinks">
+            <ul>
+                <li id="home">Home</li>
+                <li>About</li>
+                <li>Feedback</li>
+            </ul>
+        </section>
+        <span class="updateTime">sat, june 22, 2022 | 8:15 pm</span>
+    </nav>
+
+    <!-- News partners and update time -->
+    <section class="news-partners">
+        <ul id="partners">
+            <li><a href="https://timesofindia.indiatimes.com/">The Times of India</a></li>
+            <li><a href="https://www.ndtv.com/">NDTV News</a></li>
+            <li><a href="https://www.news18.com/">News18</a></li>
+            <li><a href="https://www.hindustantimes.com/">Hindustan Times</a></li>
+            <li><a href="https://news.google.com/">Google News</a></li>
+            <li>
+                <a href="https://www.cnn.com/india">CNN</a>
+            </li>
+            <li>
+                <a href="https://www.foxnews.com/category/world/world-regions/india">Fox News</a>
+            </li>
+
+
+        </ul>
+        <span id="updateTime" class="updateTime">sat, june 22, 2022 | 8:15 pm</span>
+    </section>
+    <hr>
+    <!-- NEWS CATEGORIES -->
+    <section class="categories">
+        <div class="selectCategory">
+
+            <label for="category">Select category: </label>
+            <select name="Categories" id="category">
+                <option value="all">All</option>
+                <option value="business">Business</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="sports">Sports</option>
+                <option value="science">Science</option>
+                <option value="technology">Technology</option>
+                <option value="general">General</option>
+            </select>
+        </div>
+        <div class="selectCountry" id="countries">
+            <button class="country-category active">India</button>
+            <button class="country-category">USA</button>
+        </div>
+    </section>
+    <hr>
+    <!-- NEWS CONTAINER -->
+    <section class="newsContainer" id="newsContainer">
+        <div class="category-news" id="category-news">
+
+        </div>
+
+        <div class="left-news indian-news" id="ln">
+
+        </div>
+
+        <div class="right-news indian-news" id="rn">
+            <h2 id="headline-header">Top Headlines - Indian News</h2>
+            <ul>
+
+            </ul>
+        </div>
+
+    </section>
+    <hr>
+
+    <section class="newsContainer " id="mid-news">
+        <div class="left-news teslaNews other-news" id="tesla-today">
+            <!-- Code injected by js -->
+        </div>
+        <div class="left-news applenews other-news" id="apple-now">
+            <!-- Code injected by js -->
+        </div>
+
+    </section>
+
+</body>
+
+</html>
